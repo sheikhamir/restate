@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'PalanquinRegular';
+    src: url('../fonts/palanquin-regular-webfont.woff2') format('woff2'),
+         url('../fonts/palanquin-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArconRegular';
+    src: url('../fonts/arcon-regular-webfont.woff2') format('woff2'),
+         url('../fonts/arcon-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CandelaBook';
+    src: url('../fonts/candelabook-webfont.woff2') format('woff2'),
+         url('../fonts/candelabook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../fonts/proximanova-regular-webfont.eot');
+    src: url('../fonts/proximanova-regular-webfont.woff2') format('woff2'),
+         url('../fonts/ProximaNova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

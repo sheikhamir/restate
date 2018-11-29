@@ -1,0 +1,70 @@
+.navbar-bg {
+    /*background: rgba(134, 160, 155,0.5);*/
+    background: #444;
+    filter: blur(30px);
+}
+
+.hometrova.navbar .navbar-brand {
+    font-weight: bold;
+}
+.hometrova.navbar {
+    transition: 300ms all;
+}
+.hometrova.navbar.trp {
+    /*background: rgba(100,100,100,0.5);*/
+    background: rgba(88, 66, 25,0.7);
+    border-color: rgba(1,1,1,0);
+}
+.hometrova.navbar.trp .navbar-brand {
+    color: #fff;
+}
+.hometrova.navbar.trp .navbar-nav>li>a {
+    color: #fff;
+}
+.hometrova.navbar.trp.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.hometrova.navbar.trp .navbar-collapse.collapsing,
+.hometrova.navbar.trp .navbar-collapse.collapse.in {
+    background-color: #fff;
+}
+.hometrova.navbar.trp .navbar-collapse.collapsing a,
+.hometrova.navbar.trp .navbar-collapse.collapse.in a {
+    color: #777;
+}
+.hometrova.navbar.trp.navbar-default .navbar-nav>.open>a,
+.hometrova.navbar.trp.navbar-default .navbar-nav>.open>a:focus,
+.hometrova.navbar.trp.navbar-default .navbar-nav>.open>a:hover {
+    background: rgba(50, 50, 50,0.5);
+    color: #eee;
+}
+.hometrova.navbar.trp .dropdown-menu {
+    background: rgba(50, 50, 50,0.5);
+    color: #eee;
+}
+.hometrova.navbar.trp .dropdown-menu>li>a:focus,
+.hometrova.navbar.trp .dropdown-menu>li>a:hover {
+    background: rgba(0,0,0,0.15);
+    color: #fff;
+}
+.hometrova.navbar.trp .dropdown-menu .divider {
+    background: rgba(0,0,0,0.15);
+    color: #fff;
+}
+.hometrova.navbar.trp .dropdown-menu .dropdown-header {
+    color: #ccc;
+}
+.hometrova.navbar.trp .dropdown-menu a {
+    color: #fff;
+}
+.hometrova.navbar.navbar-bg {
+    filter: blur(5px);
+    background: rgba(255,255,255,0.8);
+    border-width: 0;
+}
+.navbar-brand-center {
+    position: absolute !important;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
